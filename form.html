@@ -24,21 +24,53 @@
             <input type="text" name="" id="inputtext2" placeholder="Ingrese su Apellido">
         </div>
 
+        <br>
+
+        <div>
+            <label for="">EDAD</label>
+            <input type="number" min="18" max="80">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="">GENERO</label>
+            <input type="radio" name="hm" value="h" required> Hombre
+            <input type="radio" name="hm" value="m"> Mujer
+            <input type="radio" name="hm" value="x"> N/A
+        </div>
+
+        <br>
+
+        <div>
+            <label for="">DNI</label>
+            <input type="text" type="number" min="8">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="">CORREO</label>
+            <input type="email" id="correo" placeholder="example@mail.com">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
     </form>
 
     <style>
         body {
-            background-color: skyblue;
-        }
-        h1 {
-            color: red;
+            background-color: royalblue;
         }
         form {
-            border-style: double;
-        }
-        form.box {
-            background-color: rosybrown;
+            padding: 10px;
+            border: double;
+            background-color: seagreen;
         }
     </style>
+
 </body>
 </html>
